@@ -71,8 +71,8 @@ function down() {
 }
 
 function left() {
-	if(greencar_y >= 0) {
-		greencar_y =  greencar_y - 10;
+	if(greencar_x >= 0) {
+		greencar_x =  greencar_x - 10;
 		console.log("When Left Arrow Key is Pressed, x = " + greencar_x + "and y = " + greencar_y);
 		uploadBackground();
 		uploadGreencar();
@@ -80,8 +80,8 @@ function left() {
 }
 
 function right() {
-	if(greencar_y <= 700) {
-		greencar_y =  greencar_y + 10;
+	if(greencar_x <= 700) {
+		greencar_x =  greencar_x + 10;
 		console.log("When Right Arrow Key is Pressed, x = " + greencar_x + "and y = " + greencar_y);
 		uploadBackground();
 		uploadGreencar();
